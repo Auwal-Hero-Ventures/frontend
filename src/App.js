@@ -47,9 +47,9 @@ const App = () => {
     <Router>
       <div
         className="App"
-        // style={{
-        //   backgroundImage: `url(${currentImage === 1 ? image1 : currentImage === 2 ? image2 : image3})`,
-        // }}
+        style={{
+          backgroundImage: `url(${currentImage === 1 ? image1 : currentImage === 2 ? image2 : image3})`,
+        }}
       >
         <header>
           <nav className="horizontal-menu">
